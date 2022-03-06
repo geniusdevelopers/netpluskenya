@@ -1,0 +1,55 @@
+.my-profile-page-holder{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.my-profile-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60vw;
+}
+
+.cover-photo{
+    width: 60vw;
+    height: 25vh;
+    background-color: brown;
+    background-image: url('../images/background.jpg');
+    background-position: center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    border-radius: 30px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+
+.profile-picture{
+    height: 90%;
+}
+
+.profile-nav-buttons-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: crimson;
+    width: 100%;
+}
+
+.profile-nav-buttons{
+    padding: 10px 30px;
+}
+
+.profile-content{
+    width: 100%;
+    border-radius: 15px;
+    background-color: rgb(184, 184, 184);
+    margin: 20px 0px 0px 0px;
+}

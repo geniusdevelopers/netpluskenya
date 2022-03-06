@@ -1,0 +1,162 @@
+.chat-room{
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 90vh;
+    width: 400px;
+    background-color: rgb(177, 177, 177);
+    display: flex;
+    flex-direction: column;
+}
+
+.chat-room >*{
+    margin-top: 3px;
+    width: 97%;
+}
+
+
+.chat-room-buttons{
+    background-color: rgb(245, 255, 112);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0px;
+    width: 100%;
+}
+
+.chat-room-buttons > *{
+    display: block;
+    margin: 5px;
+    padding: 5px;
+    height: 3vw;
+    width: 3vw;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgb(80, 80, 80);
+}
+
+
+.blogg-button:hover{
+    background-color: rgb(255, 255, 255);
+}
+.direct-chat-button:hover{
+    background-color: rgb(255, 255, 255);
+}
+.minimize-chatroom:hover{ 
+    background-color: rgb(255, 255, 255);
+}
+.expand-chatroom:hover{ 
+    background-color: rgb(255, 255, 255);
+}
+
+.online-name{
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 30px;
+    font: normal normal normal 20px/20px 'Times New Roman', Times, serif;
+}
+
+.online-button{
+    background-color: green;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+}
+
+.chat-direct-message{
+    position: relative;
+    min-height: 70vh;
+    max-height: 70vh;
+    background-color: rgb(255, 254, 189);
+    overflow-y: scroll;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.chat-direct-message::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.chat-direct-message{
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.client-direct-message{
+    position: relative;
+    left: 0%;
+    width: 80%;
+    margin: 10px 5px;
+    text-align: left;
+    background-image: url('../images/chatBlue.png');
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat, repeat;
+    background-origin: content-box;
+}
+
+.assistant-direct-message{
+    position: relative;
+    left: 18%;
+    width: 80%;
+    margin: 10px 5px;
+    text-align: left;
+    background-image: url('../images/chatGreen.png');
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+}
+
+.client-message-holder{
+    margin: 0px 0px 0px 20px;
+    padding: 10px;
+}
+
+.assistant-message-holder{
+    margin: 0px 20px 0px 0px;
+    padding: 10px;
+}
+
+.blogg-direct{
+    min-height: 70vh;
+    max-height: 70vh;
+    background-color: rgb(255, 255, 255);
+    overflow-y: scroll;
+}
+
+.text-area-chat-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0px;
+    min-width: 400px;
+    max-width: 400px;
+    min-height: 80px;
+    max-height: 80px;
+    background-color: rgb(177, 177, 177);
+}
+
+.text-area-chat{
+    min-width: 95%;
+    max-width: 95%;
+    min-height: 60px;
+    max-height: 60px;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: rgb(255, 255, 255);
+    font: normal normal normal 15px/15px 'Times New Roman', Times, serif;
+}
+
+.text-area-chat::-webkit-scrollbar {
+    display: none;
+}
+.text-area-chat{
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

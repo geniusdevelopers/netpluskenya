@@ -1,0 +1,30 @@
+
+.Projects-page{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.project{
+    width: 80vw;
+    height: auto;
+    margin-bottom: 20px;
+    background-color: rgb(235, 235, 235);
+    padding: 20px;
+    text-align: justify;
+}
+
+.project-image{
+    width: 40vw;
+    min-width: 400px;
+    height: auto;
+    float: left;
+    margin-bottom: 20px;
+    padding: 0px;
+    margin: 0px;
+}
+
+

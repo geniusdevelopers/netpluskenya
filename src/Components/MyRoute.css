@@ -1,0 +1,30 @@
+.route{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.fix-chartroom{
+    position: fixed;
+    bottom: 0px;
+    right: 1vw;
+}
+
+.fix-sponsor-window{
+    position: fixed;
+    top: 19vh;
+    right: 1vw;
+    z-index: 2;
+}
+
+.error-page{
+    background-color: rgb(162, 168, 125);
+    min-height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

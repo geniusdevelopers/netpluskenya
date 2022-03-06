@@ -1,0 +1,69 @@
+.OrgStructure{
+    width: 100%;
+    background-color: rgb(224, 224, 224);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.OrgStructure *{
+    width: 80%;
+}
+
+.staff-profile-holder{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.staff-profile{
+    width: 30%;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(180, 180, 180);
+}
+
+.staff-profile:hover{
+    background-color: rgb(131, 131, 131);
+}
+
+.staff-profile *{
+    margin-bottom: 10px;
+}
+
+.profile-pic{
+    width: 70%;
+}
+
+.more-button{
+    color: rgb(0, 0, 167);
+    text-decoration: none;
+    border: transparent;
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 20px;
+    background-color: rgb(163, 163, 163);
+    width: fit-content;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.more-button:hover{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background-color: rgb(0, 77, 0);
+    border-radius: 0px;
+}
+
+.hidden-profile{
+    display: none;
+}

@@ -1,0 +1,126 @@
+.my-footer {
+  position: relative;
+  width: 100%;
+  background-color: rgb(0, 62, 73);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-columns-holder {
+  position: relative;
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap; 
+  color: #ffffff;
+  text-align: left;
+}
+
+.column{
+  max-width: 20%;
+}
+
+.footer-logo-holder{
+  height: 12vw;
+  width: 12vw;
+  margin-top: 10px;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-picture-logo{
+  height: 10vw;
+}
+
+.footer-nav-link{
+  display: block;
+  text-align:center;
+  text-decoration:none;
+  padding: 1vh 1vw;
+  margin: 5px 0px 5px 0px;
+  color: #ffffff;
+  font: normal normal normal 15px/15px 'Times New Roman', Times, serif;
+}
+
+.footer-nav-link:hover{
+  text-decoration: underline;
+    font: italic normal bold 15px/15px 'Times New Roman', Times, serif;
+}
+
+.footer-contact{
+  color: #ffffff;
+  text-align: left;
+}
+
+.social-media{
+  width: 80%;
+  padding: 5px;
+  background-color: rgb(0, 62, 73);
+  filter: brightness(1.5);
+}
+
+.social-media *{
+  height: 25px;
+  width: auto;
+  margin: 0px 10px;
+}
+
+.copyright{
+  width: 60vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  color: white;
+  font: normal normal normal 15px/15px 'Times New Roman', Times, serif;
+}
+
+.copyright span{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  color: white;
+  font: normal normal normal 15px/15px 'Times New Roman', Times, serif;
+}
+
+.copyright ul{
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0px;
+  margin: 0px;
+}
+
+.copyright ul li{
+  display: block;
+}
+
+.copyright-link{
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+  font: italic normal normal 15px/15px 'Times New Roman', Times, serif;
+}
+
+.copyright-link:hover{
+  display: block;
+  color: white;
+  text-decoration: underline;
+  padding: 5px 10px;
+  font: normal normal bold 15px/15px 'Times New Roman', Times, serif;
+}
+

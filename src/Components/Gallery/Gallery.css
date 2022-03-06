@@ -1,0 +1,43 @@
+.gallery-page{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.picture-holder{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0vh;
+    margin: 5px 0px 5px 5px;
+    width: 73%;
+    height: 70vh;
+    background-color: rgb(71, 71, 71);
+}
+
+.caption-div{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 25%;
+    background-color: rgb(71, 71, 71);
+    height: 70vh;
+}
+
+.picture-info{
+    position: relative;
+    text-align: justify;
+    background-color: white;
+    height: 95%;
+    width: 95%;
+    max-height: 95%;
+    max-width: 95%;
+    overflow-y: scroll;
+}

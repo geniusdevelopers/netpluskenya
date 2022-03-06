@@ -1,0 +1,124 @@
+.sign-up-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(0, 0, 0,0.5);
+    width: 60vw;
+}
+
+.create-account-header-txt{
+    margin: 0px;
+    padding: 0px;
+    color: rgb(255, 255, 255);
+    border-bottom: solid 1px rgb(255, 255, 255) ;
+}
+
+.other-log-in-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font: italic bold normal 25px/25px "Times New Roman", Times, serif;
+    border-bottom: solid 1px rgb(255, 255, 255) ;
+}
+
+.btn-facebook {
+    background-color: #405D9D;
+    color: #fff;
+}
+
+.btn-twitter {
+    background-color: #42AEEC;
+    color: #fff;
+}
+
+.btn{
+    display:block;
+    font-size:25px;
+    text-align:center;
+    text-decoration: none;
+    white-space:nowrap;
+    line-height:25px;
+    border-radius:10px;margin: 0px;
+    margin: 20px;
+    padding: 15px 25px 15px 25px;
+}
+.btn:focus,.btn:hover{text-decoration:none}
+.btn.focus,.btn:focus{outline:0;box-shadow:0 0 0 .2rem rgba(0,123,255,.25)}
+.btn.disabled,.btn:disabled{opacity:.65}
+.btn:not(:disabled):not(.disabled){cursor:pointer}
+.btn:not(:disabled):not(.disabled).active,.btn:not(:disabled):not(.disabled):active{background-image:none}
+a.btn.disabled,fieldset:disabled a.btn{pointer-events:none}
+
+.divider-text {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font: italic bold normal 25px/25px "Times New Roman", Times, serif;
+    border-bottom: solid 1px rgb(255, 255, 255) ;
+}
+
+.sign-up-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    border-width: 10px 0px 10px 0px;
+    border-color: rgb(0, 0, 0,0.4);
+    border-style: solid;
+}
+
+.form-input-div{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 80%;
+    margin-bottom: 2.5vh;
+}
+
+.font-awesome-icon{
+    position: relative;
+    display: block;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.fa{
+    margin: 0px;
+    padding: 0px;
+    line-height: 30px;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+
+::placeholder{
+    color: rgb(255, 255, 255);
+}
+
+.registerProgress{
+    background-color: blueviolet;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.err-message-input{
+    position: absolute;
+    top: 0px;
+    margin: 0px;
+    padding: 0px;
+    color: red;
+    font: italic normal normal 12px/12px "Times New Roman", Times, serif;
+}

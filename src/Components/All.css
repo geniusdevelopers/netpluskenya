@@ -1,0 +1,82 @@
+.button {
+    height: fit-content;
+    width: fit-content;
+    display: block;
+    margin: 10px 15px;
+    padding: 5px 5px;
+    font: normal normal bold 20px/20px 'Times New Roman';
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 5px #999;
+	text-transform:uppercase;
+}
+
+.button:hover {
+    background-color: #3e8e41;
+}
+  
+.button:active {
+    background-color: #1d571f;
+    box-shadow: 0 5px rgb(80, 80, 80);
+  }
+
+.form-control{
+    font: italic normal normal 20px/20px "Times New Roman", Times, serif;
+    border: transparent;
+    border-top: solid 1px rgb(255, 255, 255) ;
+    border-bottom: solid 1px rgb(255, 255, 255) ;
+    margin: 0px;
+    padding: 1.2vh;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+}
+
+button, Button{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body {
+    margin: 0;
+    background: #151616;
+    font-family: roboto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  
+  
+  :root {
+    --bg:  #242526;
+    --bg-accent: #484a4d;
+    --text-color: #dadce1;
+    --nav-size: 60px;
+    --border: 1px solid #474a4d;
+    --border-radius: 8px;
+    --speed: 500ms; 
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    color: var(--text-color);
+    text-decoration: none;;
+  }
+
+  Link{
+    text-decoration: none;
+    color: black;
+  }
+  

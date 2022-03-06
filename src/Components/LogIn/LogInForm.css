@@ -1,0 +1,79 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 19, 2021, 10:32:33 AM
+    Author     : ICS
+*/
+
+/* Made with love by Mutiullah Samim*/
+
+@import url('https://fonts.googleapis.com/css?family=Numans');
+ 
+.log-in-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: rgba(0,0,0,0.5) !important;
+    width: 30vw;
+    }
+    
+.log-in-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.log-in-header h2{
+    color: white;
+}
+
+.form-control-holder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 2vh;
+}
+
+.log-in-form-input{
+    width: 20vw;
+}
+
+#log-in-button{
+    color: black;
+    background-color: #FFC312;
+    width: 10vw;
+    padding: 1vw;
+    margin: 0px;
+    }
+    
+#log-in-button:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(9, 112, 0);
+    box-shadow: 0 5px rgb(255, 255, 255);
+    }
+
+.reset-password{
+    color: rgb(255, 255, 255);
+    margin: 2vh;
+    font: normal italic normal 15px/15px 'Times New Roman';
+}
+
+.reset-password-links{
+    text-decoration: none;
+    color: rgb(60, 106, 255);
+    font: normal italic normal 20px/20px 'Times New Roman';
+}
+
+.reset-password-links:hover{
+    text-decoration: underline;
+    color: rgb(60, 106, 255);
+    font: normal normal bold 20px/20px 'Times New Roman';
+}
