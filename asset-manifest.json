@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/netpluskenya/static/css/main.72110dcf.css",
-    "main.js": "/netpluskenya/static/js/main.5c844cff.js",
+    "main.css": "/netpluskenya/static/css/main.4846837c.css",
+    "main.js": "/netpluskenya/static/js/main.0eb610a9.js",
     "static/js/787.b6d2ac66.chunk.js": "/netpluskenya/static/js/787.b6d2ac66.chunk.js",
     "static/media/jnr.JPG": "/netpluskenya/static/media/jnr.5d971021f3cfad882ed7.JPG",
     "static/media/img7.png": "/netpluskenya/static/media/img7.fc1a02f35058e759cbb2.png",
     "static/media/11.jpg": "/netpluskenya/static/media/11.1de88c2052eb93c4f3a6.jpg",
     "static/media/10.jpg": "/netpluskenya/static/media/10.d5c9942d7a98b04a18f8.jpg",
+    "static/media/logo.png": "/netpluskenya/static/media/logo.a7656437e0ed30823f68.png",
     "static/media/4.jpg": "/netpluskenya/static/media/4.724ae41117c192234ab4.jpg",
     "static/media/img4.jpg": "/netpluskenya/static/media/img4.ae1beab649c59a4822db.jpg",
     "static/media/3.jpg": "/netpluskenya/static/media/3.0ca4c75f0ce1432f9340.jpg",
     "static/media/img6.jpg": "/netpluskenya/static/media/img6.49232c6b4a144586818f.jpg",
     "static/media/logo_6.png": "/netpluskenya/static/media/logo_6.398d9ac97ddf1879e2a1.png",
-    "static/media/logo.png": "/netpluskenya/static/media/logo.b4df127982e9e962f036.png",
     "static/media/2.jpg": "/netpluskenya/static/media/2.2beaab01b8eed28d0eda.jpg",
     "static/media/img3.jpg": "/netpluskenya/static/media/img3.d4fae2085fd3ef7b33d5.jpg",
     "static/media/img5.jpg": "/netpluskenya/static/media/img5.26c4fb3c0ae12b36db21.jpg",
@@ -27,12 +27,12 @@
     "static/media/chevron.svg": "/netpluskenya/static/media/chevron.52254b8ec9e2b910c175508f0dfe4601.svg",
     "static/media/arrow.svg": "/netpluskenya/static/media/arrow.2e552680862d14cd24637c6387dfb5b7.svg",
     "static/media/bolt.svg": "/netpluskenya/static/media/bolt.bbfd3d7aaf23b286af050b7e10125db6.svg",
-    "main.72110dcf.css.map": "/netpluskenya/static/css/main.72110dcf.css.map",
-    "main.5c844cff.js.map": "/netpluskenya/static/js/main.5c844cff.js.map",
+    "main.4846837c.css.map": "/netpluskenya/static/css/main.4846837c.css.map",
+    "main.0eb610a9.js.map": "/netpluskenya/static/js/main.0eb610a9.js.map",
     "787.b6d2ac66.chunk.js.map": "/netpluskenya/static/js/787.b6d2ac66.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.72110dcf.css",
-    "static/js/main.5c844cff.js"
+    "static/css/main.4846837c.css",
+    "static/js/main.0eb610a9.js"
   ]
 }
