@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/netpluskenya/static/css/main.22111b67.css",
-    "main.js": "/netpluskenya/static/js/main.5c64c167.js",
+    "main.js": "/netpluskenya/static/js/main.9ec01a12.js",
     "static/js/787.b6d2ac66.chunk.js": "/netpluskenya/static/js/787.b6d2ac66.chunk.js",
     "static/media/jnr.JPG": "/netpluskenya/static/media/jnr.5d971021f3cfad882ed7.JPG",
     "static/media/img7.png": "/netpluskenya/static/media/img7.fc1a02f35058e759cbb2.png",
@@ -31,11 +31,11 @@
     "static/media/arrow.svg": "/netpluskenya/static/media/arrow.2e552680862d14cd24637c6387dfb5b7.svg",
     "static/media/bolt.svg": "/netpluskenya/static/media/bolt.bbfd3d7aaf23b286af050b7e10125db6.svg",
     "main.22111b67.css.map": "/netpluskenya/static/css/main.22111b67.css.map",
-    "main.5c64c167.js.map": "/netpluskenya/static/js/main.5c64c167.js.map",
+    "main.9ec01a12.js.map": "/netpluskenya/static/js/main.9ec01a12.js.map",
     "787.b6d2ac66.chunk.js.map": "/netpluskenya/static/js/787.b6d2ac66.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.22111b67.css",
-    "static/js/main.5c64c167.js"
+    "static/js/main.9ec01a12.js"
   ]
 }
